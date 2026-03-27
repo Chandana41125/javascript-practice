@@ -1,5 +1,5 @@
 # JavaScript Practice
-# Lesson 1: JavaScript Basics
+# ⭐Lesson 1: JavaScript Basics
 
 This file contains basic JavaScript programs using alerts, console output, and simple DOM manipulation.
 📂 File
@@ -13,7 +13,7 @@ Basic arithmetic
 
 To understand JavaScript fundamentals and output methods.
 
-# Lesson 2: Numbers & Math
+# ⭐Lesson 2: Numbers & Math
 
 This file contains JavaScript math exercises including calculations, rounding, and conversions.
 
@@ -25,6 +25,24 @@ Operator precedence
 Math.round(), Math.floor(), Math.ceil()
 Percentage calculations
 Temperature conversion
+
+
+# ⭐ Lesson 3: Strings Practice
+
+This file contains solutions for JavaScript string exercises, including:
+
+* String creation
+* Concatenation
+* Template literals (interpolation)
+* Basic calculations inside strings
+* Multi-line strings
+
+## 🚀 Key Concept
+
+Use **( )** to perform calculations before combining with strings.
+
+
+
 # Goal
 
 To practice numerical operations and real-world calculations in JavaScript.
