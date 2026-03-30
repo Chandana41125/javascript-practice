@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        button{
+            margin: 10px;
+            padding: 10px;
+            font-size: 20px;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;margin-top: 5%;">Simple calculator using function and prompt</h1>
+
+     <button onclick="addition()">Addition</button>
+     <button onclick="subtraction()">Subtraction</button>
+     <button onclick="multiplication()">Multiplication</button>
+     <button onclick="division()">Division</button>
+
+
+
+    <script>
+            function addition(){
+                let a = Number(prompt("Enter the value of a"))
+                let b = Number(prompt("Enter the value of b"))
+                console.log(a + b)
+            }
+            function subtraction(){
+                let a = Number(prompt("Enter the value of a"))
+                let b = Number(prompt("Enter the value of b"))
+                console.log(a - b)
+            }
+            function multiplication(){
+                let a = Number(prompt("Enter the value of a"))
+                let b = Number(prompt("Enter the value of b"))
+                console.log(a * b)
+            }
+            function division(){
+                let a = Number(prompt("Enter the value of a"))
+                let b = Number(prompt("Enter the value of b"))
+                if (b == 0){
+                    console.log("Division by zero is not allowed")
+                }else{
+                    console.log(a / b)
+                }
+            }
+    </script>
+</body>
+</html>
