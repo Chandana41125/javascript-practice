@@ -57,6 +57,30 @@ JavaScript
 
 To practice numerical operations and real-world calculations in JavaScript.
 
+#  Simple Calculator (JavaScript)
+
+A basic calculator that performs addition, subtraction, multiplication, and division using JavaScript `prompt()` and functions.
+
+## 🚀 How to Run
+
+* Open the HTML file in a browser
+* Click any operation button
+* Enter values when prompted
+* View result in console (F12)
+
+## 🛠️ Tech Used
+
+* HTML
+* JavaScript
+
+## ✨ Features
+
+* 4 operations: +, -, *, /
+* Handles division by zero
+
+
+
+
 # Author
 
 Chandana S
