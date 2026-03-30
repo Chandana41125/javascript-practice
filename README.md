@@ -41,7 +41,17 @@ This file contains solutions for JavaScript string exercises, including:
 
 Use **( )** to perform calculations before combining with strings.
 
+# ➕➖ Addition & Subtraction (JavaScript)
 
+Simple program to perform addition and subtraction using JavaScript prompt() and functions.
+
+🚀 How to Run
+Open simple_AddSub_using_prompt.html in a browser
+Click buttons and enter values
+Check result in console (F12)
+🛠️ Tech Used
+HTML
+JavaScript
 
 # Goal
 
