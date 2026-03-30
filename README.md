@@ -41,7 +41,7 @@ This file contains solutions for JavaScript string exercises, including:
 
 Use **( )** to perform calculations before combining with strings.
 
-# Lesson 4 :➕➖ Addition & Subtraction (JavaScript)
+# Practice_program :➕➖ Addition & Subtraction (JavaScript)
 
 Simple program to perform addition and subtraction using JavaScript prompt() and functions.
 
@@ -57,7 +57,7 @@ JavaScript
 
 To practice numerical operations and real-world calculations in JavaScript.
 
-#  Simple Calculator (JavaScript)
+#  Practice_program : Simple Calculator (JavaScript)
 
 A basic calculator that performs addition, subtraction, multiplication, and division using JavaScript `prompt()` and functions.
 
