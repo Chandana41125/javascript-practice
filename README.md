@@ -80,6 +80,21 @@ A basic calculator that performs addition, subtraction, multiplication, and divi
 
 
 
+# Lesson 4 Exercises – HTML, CSS & JavaScript
+
+This project contains basic frontend exercises.
+
+## Features
+
+* Created buttons and text using HTML
+* Styled elements using CSS
+* Added interactivity using JavaScript (alert, console.log, onclick)
+
+## Output
+
+* Styled buttons
+* Popups on click
+* Console message on page load
 
 # Author
 
