@@ -116,6 +116,29 @@ Open the browser console to see the output
 # 📌 Note
 All updates are displayed in the console, not on the webpage
 
+# lesson_5_variables_practice_exercise : Cart Quantity & Cost Calculator
+
+This is a simple web project built using HTML and JavaScript that simulates a shopping cart system and basic cost calculation.
+
+🚀 Features
+Display current cart quantity
+Add items (+1 to +5)
+Remove items (-1 to -3)
+Reset cart quantity
+Calculate food cost, tax (10%), and total cost
+Outputs all results in the browser console
+🛠️ Technologies Used
+HTML
+JavaScript
+▶️ How to Run
+Open the HTML file in any browser
+Click buttons to update cart quantity
+Open the browser console to view results
+📌 Note
+Cart updates and calculations are shown only in the console
+Includes basic arithmetic operations for cost calculation
+
+
 
 # Author
 

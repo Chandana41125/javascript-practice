@@ -6,6 +6,37 @@
     <title>Document</title>
 </head>
 <body>
+
+
+     <p>Cart Quantity</p>
+    <button onclick = "console.log(`Cart Quantity: ${cart_count}`)">Show Quantity</button>
+    <button onclick = "console.log(`Cart Quantity: ${cart_count+=1}`)">Add to cart</button>
+    <button onclick = "console.log(`Cart Quantity: ${cart_count+=2}`)">+2</button>
+    <button onclick = "console.log(`Cart Quantity: ${cart_count+=3}`)">+3</button>
+    <button onclick = "console.log(`Cart Quantity: ${cart_count+=4}`)">+4</button>
+    <button onclick = "console.log(`Cart Quantity: ${cart_count+=5}`)">+5</button>
+    <button onclick = "console.log(`Cart Quantity: ${cart_count-=1}`)">Remove from cart</button>
+    <button onclick = "console.log(`Cart Quantity: ${cart_count-=2}`)">-2</button>
+    <button onclick = "console.log(`Cart Quantity: ${cart_count-=3}`)">-3</button>
+    <button onclick = "console.log(`Cart Quantity: ${cart_count-=2}`)">-2</button>
+    <button onclick = "console.log(`Cart Quantity: ${cart_count-=3}`)">-3</button>
     
+    <button onclick = "console.log(`Cart Quantity was Reset.\nCart Quantity: ${cart_count=0}`)">Reset cart</button>
+
+
+    <script>
+        const name = "Chandana S";
+        console.log(`My Name is: ${name}`);
+
+        const cost = 5 + 2*3 + 9;
+        console.log(`Cost of food: $${cost}`);
+        const tax = cost * 0.1;
+        console.log(`Tax (10%): $${tax}`);
+        const totalCost = cost + tax;
+        console.log(`Total Cost: $${totalCost}`);
+
+        let cart_count = 0;
+
+    </script>
 </body>
 </html>
