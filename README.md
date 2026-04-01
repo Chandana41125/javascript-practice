@@ -139,6 +139,20 @@ Cart updates and calculations are shown only in the console
 Includes basic arithmetic operations for cost calculation
 
 
+Here’s a very short README for your calculator project:
+
+# 🧮 Simple Calculator
+
+A basic calculator built using HTML and JavaScript that performs arithmetic operations.
+
+🚀 Features
+Supports +, −, ×, ÷ operations
+Displays output in the console
+Clear button to reset
+▶️ Run
+
+Open the HTML file and use buttons, check results in console
+
 
 # Author
 
