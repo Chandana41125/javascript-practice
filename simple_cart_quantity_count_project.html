@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart value count</title>
+</head>
+<body>
+
+    
+
+    <p>Cart Quantity</p>
+    <button onclick = "console.log(`Cart Quantity: ${cart_count}`)">Show Quantity</button>
+    <button onclick = "console.log(`Cart Quantity: ${cart_count+=1}`)">Add to cart</button>
+    <button onclick = "console.log(`Cart Quantity: ${cart_count+=2}`)">+2</button>
+    <button onclick = "console.log(`Cart Quantity: ${cart_count+=3}`)">+3</button>
+    <button onclick = "console.log(`Cart Quantity is Reset.\nCart Quantity: ${cart_count=0}`)">Reset cart</button>
+
+
+
+    <script>
+           let cart_count = 0;
+    </script>
+</body>
+</html>
