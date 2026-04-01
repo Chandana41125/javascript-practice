@@ -96,6 +96,27 @@ This project contains basic frontend exercises.
 * Popups on click
 * Console message on page load
 
+
+# Lesson 05 - Cart Quantity Counter
+
+This is a simple web-based project built using HTML and JavaScript that allows users to manage and track the number of items in a cart.
+
+# 🚀 Features
+Display current cart quantity
+Add 1, 2, or 3 items to the cart
+Reset the cart to zero
+Outputs results in the browser console
+🛠️ Technologies Used
+HTML
+JavaScript
+# ▶️ How to Run
+Open the HTML file in any browser
+Click the buttons to update the cart quantity
+Open the browser console to see the output
+# 📌 Note
+All updates are displayed in the console, not on the webpage
+
+
 # Author
 
 Chandana S
