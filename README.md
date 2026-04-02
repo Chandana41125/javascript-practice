@@ -154,6 +154,70 @@ Clear button to reset
 Open the HTML file and use buttons, check results in console
 
 
+# 📘 JavaScript Basics – Datatypes & Strings
+
+## 🔹 Overview
+This project demonstrates basic JavaScript concepts:
+- Datatypes (Number, Boolean, Undefined, Null, BigInt)
+- String declaration methods
+- String properties and functions
+- Palindrome program
+
+---
+
+## 🔹 Datatypes Examples
+- Number (integers, decimals, Infinity)
+- Boolean (true/false values)
+- Undefined and Null
+- BigInt for large numbers
+
+---
+
+## 🔹 String Concepts
+String declaration using:
+- Double quotes `" "`
+- Single quotes `' '`
+- Template literals `` ` ` ``
+
+---
+
+## 🔹 String Methods Used
+- `length`
+- `toLowerCase()`, `toUpperCase()`
+- `trim()`, `trimStart()`, `trimEnd()`
+- `charAt()`
+- `indexOf()`, `lastIndexOf()`
+- `replace()`
+- `concat()`
+- `slice()`
+- `repeat()`
+- `split()`
+
+---
+
+## 🔹 Palindrome Program
+Checks whether a given string is a palindrome.
+
+**Example:**
+Input: madam
+Output: Palindrome
+
+
+---
+
+## 🔹 Key Learnings
+- Understanding JavaScript datatypes
+- Working with string methods
+- Performing string operations
+- Implementing palindrome logic
+
+---
+
+## 🚀 Conclusion
+This project helps beginners understand core JavaScript concepts and improves problem-solving skills.
+
+
+
 # Author
 
 Chandana S
