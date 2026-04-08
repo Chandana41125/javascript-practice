@@ -217,7 +217,48 @@ Output: Palindrome
 This project helps beginners understand core JavaScript concepts and improves problem-solving skills.
 
 
+# 🔐 Smart Lock System - All Methods
 
-# Author
+This project demonstrates a Smart Lock System implemented using three different approaches in JavaScript:
 
+---
+
+## 🚀 Methods Used
+1. While Loop
+2. For Loop
+3. Recursion
+
+---
+
+## 🎯 Features
+- Maximum 3 password attempts
+- Alerts for success, failure, and system block
+- Separate buttons to test each method
+
+---
+
+## 🧠 Learning Outcome
+- Understanding loops vs recursion
+- Control flow in JavaScript
+- Real-world logic implementation
+
+---
+
+## ▶️ How to Run
+1. Open the HTML file in browser
+2. Click any button:
+   - While Loop
+   - For Loop
+   - Recursion
+3. Enter password in prompt
+
+---
+
+## ⚠️ Note
+This is for learning purposes only (not secure for real-world use)
+
+---
+
+## ✨ Author
 Chandana S
+
