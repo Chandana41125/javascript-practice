@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Lock System</title>
+</head>
+<body>
+
+    <h2>🔐 Smart Lock System</h2>
+
+    <button onclick="whileMethod()">While Loop</button>
+    <button onclick="forMethod()">For Loop</button>
+    <button onclick="recursionMethod()">Recursion</button>
+
+    <script>
+        let password = "123";
+
+        // 🔁 While Loop Method
+        function whileMethod() {
+            let attempts = 3;
+
+            while (attempts > 0) {
+                let user = prompt("Enter password:");
+
+                if (user === password) {
+                    alert("Door opened (While Loop)");
+                    break;
+                } else {
+                    attempts--;
+                    if (attempts > 0) {
+                        alert("Invalid password. Attempts left: " + attempts);
+                    } else {
+                        alert("System Blocked");
+                    }
+                }
+            }
+        }
+
+        // 🔁 For Loop Method
+        function forMethod() {
+            for (let attempts = 3; attempts > 0; attempts--) {
+                let user = prompt("Enter password:");
+
+                if (user === password) {
+                    alert("Door opened (For Loop)");
+                    break;
+                } else {
+                    if (attempts > 1) {
+                        alert("Invalid password. Attempts left: " + (attempts - 1));
+                    } else {
+                        alert("System Blocked");
+                    }
+                }
+            }
+        }
+
+        // 🔁 Recursion Method
+        function recursionMethod() {
+            let attempt = 0;
+
+            function smartLock() {
+                let user = prompt("Enter password:");
+
+                if (user === password) {
+                    alert("Door opened (Recursion)");
+                } 
+                else if (attempt < 2) {
+                    attempt++;
+                    alert("Invalid password. Attempts left: " + (3 - attempt));
+                    smartLock();
+                } 
+                else {
+                    alert("System Blocked");
+                }
+            }
+
+            smartLock();
+        }
+    </script>
+
+</body>
+</html>
