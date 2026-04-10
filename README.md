@@ -259,6 +259,42 @@ This is for learning purposes only (not secure for real-world use)
 
 ---
 
+
+# 🚗 Uber Price Calculator (Mini Project)
+
+This is a simple frontend project that calculates ride prices based on distance for different vehicle types like Bike, Auto, and Car.
+
+## 💡 Features
+- User enters distance (in KM)
+- Calculates fare instantly
+- Different pricing for:
+  - 🏍 Bike → ₹10/km
+  - 🛺 Auto → ₹11/km
+  - 🚗 Car → ₹12/km
+- Clean UI using HTML & CSS
+- Interactive using JavaScript
+
+## 🛠 Technologies Used
+- HTML
+- CSS
+- JavaScript
+
+## 📸 Output
+Displays total fare using alert message after clicking "Book Now"
+
+## 🚀 How to Run
+1. Download or clone the repository
+2. Open `index.html` in browser
+
+## 📌 Future Improvements
+- Add input validation
+- Add booking confirmation UI instead of alert
+- Make responsive design
+- Add location-based pricing
+
+---
+
+
 ## ✨ Author
 Chandana S
 
