@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+           nav{
+            background-color: black;
+            height: 85px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+           }
+           nav img{
+            height: 80px;
+           }
+           #parent{
+             display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 70px;
+            
+           }
+           .child{
+            border:5px solid black;
+            border-radius: 15px;
+            padding: 10px;
+            margin:10px
+           } 
+           #parent img{
+            height: 400px;
+            width: 400px;
+           }
+           #parent input{
+            height:40px;
+            width: 250px;
+            border: 2px solid black;
+            border-radius: 10px;
+           }
+           #parent button{
+            margin: 8px;
+            background-color: black;
+            color: white;
+            border-radius: 10px;
+            height:35px;
+            width: 230px;
+           }
+           .child div{
+             display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+           }
+
+         
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrmLl4mZJWaGb4MxiIlPurmdfJMN7C6bi7bg&s" alt="uberimage"></div>
+    </nav>
+
+    <div id="parent">
+        <div class="child">  
+            <div id="child1image">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkp8YufXKsHcZF7KznD31zy6C5nlYuRDB-qw&s" alt="Bike image"> 
+            </div>
+            <div>
+                <input id="bike_kilometer" type="text"  placeholder="Enter KM">
+            </div>
+            <div>
+                <button onclick="bike()">Book Now</button>
+            </div>
+        </div>
+
+
+
+        <div class="child">
+                <div id="child2image">
+                    <img src="https://cn-geo1.uber.com/image-proc/crop/resizecrop/udam/format=auto/width=552/height=552/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC91ZGFtLWFzc2V0cy9mYzEwMWZmOC04MWExLTQ2YzMtOTk1YS02N2I0YmJkMmYyYmYuanBn" alt="Auto image">
+                </div>
+                <div>
+                    <input id="auto_kilometer" type="text" placeholder="Enter KM">
+                </div>
+                <div>
+                    <button onclick="auto()">Book Now</button>
+                </div>
+            </div>
+
+        <div class="child">
+            <div id="child3image">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfZYsMYZNnCwUCad003Ne7lFeRz3cqwLidRg&s" alt="Car image">
+            </div>
+            <div>
+                <input id="car_kilometer" type="text" placeholder="Enter KM">
+            </div>
+            <div>
+                <button onclick="car()">Book Now</button>
+            </div>
+        </div>
+    </div>
+
+
+<script>
+
+    function bike() {
+        let input = document.getElementById("bike_kilometer").value;
+        alert(`Total rs charged for the ride is ${input*10}`);
+    }
+
+     function auto() {
+        let input = document.getElementById("auto_kilometer").value;
+        alert(`Total rs charged for the ride is ${input*11}`);
+    }
+     function car() {
+        let input = document.getElementById("car_kilometer").value;
+        alert(`Total rs charged for the ride is ${input*12}`);
+    }
+</script>
+
+
+</body>
+</html>
