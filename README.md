@@ -366,6 +366,53 @@ These programs help in understanding:
 * HTML
 
 ---
+# JavaScript Object Sealing and Freezing
+
+This program demonstrates how to control modifications in JavaScript objects using `Object.seal()` and `Object.freeze()`.
+
+---
+
+## 📌 Object.seal()
+
+* Prevents adding or deleting properties
+* Allows updating existing properties
+
+### Behavior:
+
+* ❌ Cannot add new properties
+* ❌ Cannot delete properties
+* ✅ Can modify existing values
+
+---
+
+## 📌 Object.freeze()
+
+* Completely locks the object
+
+### Behavior:
+
+* ❌ Cannot add properties
+* ❌ Cannot delete properties
+* ❌ Cannot modify existing values
+
+---
+
+## 🚀 Summary
+
+| Feature           | Object.seal() | Object.freeze() |
+| ----------------- | ------------- | --------------- |
+| Add properties    | ❌ No          | ❌ No            |
+| Delete properties | ❌ No          | ❌ No            |
+| Update values     | ✅ Yes         | ❌ No            |
+
+---
+
+## 💻 Technologies Used
+
+* JavaScript (ES6)
+* HTML
+
+---
 
 
 ## ✨ Author
