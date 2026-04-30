@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEALING AND FREEZING</title>
+</head>
+<body>
+    
+<script>
+
+    let users = {
+        name : "chandu",
+        age : 22,
+        gender : "female"
+    }
+    Object.seal(users)
+
+    delete users.name
+    users.usn = "4GK22";
+    users.age = 24
+    users.name = "chandana"
+
+    console.log(users.name)
+    console.table(users)
+    console.log(Object.isSealed(users))
+
+
+    let user = {
+            name : "chandu",
+            age : 22,
+            gender : "female"
+        }
+
+    console.log(user.name)
+    Object.freeze(user)
+    user.name = "chandana"
+    console.log(user.name)
+    delete user.name
+    console.log(user.name)
+    user.usn = "4gk"
+    console.log(user)
+</script>
+</body>
+</html>
