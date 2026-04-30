@@ -293,6 +293,79 @@ Displays total fare using alert message after clicking "Book Now"
 - Add location-based pricing
 
 ---
+# JavaScript Practice Programs
+
+This repository contains basic JavaScript programs demonstrating important concepts like **higher-order functions, array methods, and object operations**.
+
+---
+
+## 📌 1. Higher-Order Function & Callback
+
+This example shows how a function can accept another function as an argument.
+
+### Concepts:
+
+* Higher-order function
+* Callback function
+* Conditional execution
+
+### Example:
+
+* `instagram()` function takes a callback (`reels`)
+* On successful login, callback function executes
+
+---
+
+## 📌 2. Array Methods (filter, map, reduce)
+
+This program demonstrates commonly used array methods on product prices.
+
+### Concepts:
+
+* `filter()` → selects values based on condition
+* `map()` → transforms each element
+* `reduce()` → calculates a single value (sum)
+
+### Operations:
+
+* Filter products greater than 3000
+* Add 10% GST to each product
+* Calculate total purchase amount
+
+---
+
+## 📌 3. Object Operations & Methods
+
+This example demonstrates how to work with JavaScript objects.
+
+### Concepts:
+
+* Access properties (dot & bracket notation)
+* Add, update, and delete properties
+* Built-in object methods:
+
+  * `Object.keys()`
+  * `Object.values()`
+  * `Object.entries()`
+
+---
+
+## 🚀 Summary
+
+These programs help in understanding:
+
+* Function reusability using callbacks
+* Efficient data manipulation using array methods
+* Working with objects and their properties
+
+---
+
+## 📂 Technologies Used
+
+* JavaScript (ES6)
+* HTML
+
+---
 
 
 ## ✨ Author
