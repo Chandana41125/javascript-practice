@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OBJECT METHODS IN JAVASCRIPT</title>
+</head>
+<body>
+    
+<script>
+
+    let user = {
+        name : "chandu",
+        age : 22,
+        address : {
+            city : "Arsikere",
+            state : "karnataka"
+        },
+        skills : ["good at everything she do","good communication skill"]
+
+    }
+
+    console.log(user.name)
+    console.log(user["age"])
+    console.log(user["address"]["city"])
+
+    user.gender = "female"
+    user.name = "chandana"
+    delete user.age
+    console.log(user)
+
+
+    console.log(Object.keys(user))
+    console.log(Object.values(user))
+    console.log(Object.entries(user))
+</script>
+</body>
+</html>
