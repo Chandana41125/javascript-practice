@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        
+        let products = [120,200,3000,350,4000,3500,560,12000]
+
+        let filtered_result = products.filter(x => {
+            return x > 3000
+        });
+        console.log(filtered_result);
+
+        let GST_Total = products.map(x => {
+            return x+x*0.1;
+        });
+        console.log(GST_Total);
+
+        let Total_Purcahsed = products.reduce((sum_val,val) => {
+            return sum_val+val
+        },0);
+        console.log(Total_Purcahsed);
+
+
+
+
+        
+    </script>
+</body>
+</html>
