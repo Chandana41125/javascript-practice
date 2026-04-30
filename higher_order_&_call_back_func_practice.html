@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+          function reels(){
+            console.log("girl is watching reels!!!")
+        }
+
+        function instagram(username,password,callback){
+            if(username==="girl" && password==="girl@123"){
+                console.log("login successfull");
+                callback();
+            }else{
+                alert("invalid credentials");
+            }
+        }
+        instagram("girl","girl@123",reels);
+    </script>
+</body>
+</html>
